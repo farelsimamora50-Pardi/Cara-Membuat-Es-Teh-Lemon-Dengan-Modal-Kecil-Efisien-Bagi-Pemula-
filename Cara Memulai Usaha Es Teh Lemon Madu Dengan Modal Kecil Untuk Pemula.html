@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Cara Memulai Usaha Es Teh Lemon Madu Dengan Modal Kecil Untuk Pemula</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,500&family=Public+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --cream:#FFF8EA; --paper:#FFFEFA; --tea:#3E2A1D; --tea-soft:#6B5240;
+    --lemon:#F0BD3E; --honey:#D98A2B; --leaf:#748A5D; --line:rgba(62,42,29,0.14);
+    padding-top: env(safe-area-inset-top, 0px); padding-bottom: env(safe-area-inset-bottom, 0px);
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){ --cream:#1C1610; --paper:#221B14; --tea:#F5ECDD; --tea-soft:#C9B79E; --line:rgba(245,236,221,0.14); }
+  }
+  :root[data-theme="dark"]{ --cream:#1C1610; --paper:#221B14; --tea:#F5ECDD; --tea-soft:#C9B79E; --line:rgba(245,236,221,0.14); }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth; scroll-padding-top: env(safe-area-inset-top, 0px);}
+  body{margin:0; background:var(--cream); color:var(--tea); font-family:'Public Sans',sans-serif; line-height:1.6; -webkit-font-smoothing:antialiased;}
+  h1,h2,h3{font-family:'Fraunces',serif; margin:0; color:var(--tea);}
+  .wrap{max-width:900px; margin:0 auto; padding:0 28px;}
+  section{padding:60px 0;}
+
+  .top{display:flex; align-items:center; justify-content:space-between; gap:10px; padding:20px 28px; max-width:900px; margin:0 auto;}
+  .brand{display:flex; align-items:center; gap:9px;}
+  .brand svg{width:26px;height:26px;flex-shrink:0;}
+  .brand span{font-family:'Fraunces',serif; font-weight:600; font-size:1rem;}
+  .top .author-tag{font-size:0.8rem; color:var(--tea-soft);}
+
+  /* Hero photo banner */
+  .photo-banner{position:relative; width:100%; height:min(56vw,420px); overflow:hidden;}
+  .photo-banner svg{width:100%; height:100%; display:block;}
+  .photo-banner .caption{
+    position:absolute; left:28px; bottom:18px; color:#FFF8EA; font-size:0.8rem;
+    background:rgba(28,18,10,0.42); padding:6px 12px; border-radius:999px; backdrop-filter:blur(2px);
+  }
+
+  .hero{padding:44px 0 60px;}
+  .hero h1{font-size:clamp(1.9rem,4.6vw,3rem); font-weight:600; line-height:1.12; letter-spacing:-0.01em; max-width:20ch;}
+  .hero .byline{margin-top:14px; font-size:0.92rem; color:var(--tea-soft);}
+  .hero .byline b{color:var(--honey); font-weight:600;}
+  .hero p.lede{margin-top:20px; font-size:1.08rem; color:var(--tea-soft); max-width:56ch;}
+  .hero-stats{display:flex; gap:28px; margin-top:30px; flex-wrap:wrap;}
+  .stat b{display:block; font-family:'Fraunces',serif; font-size:1.6rem; color:var(--honey);}
+  .stat span{font-size:0.83rem; color:var(--tea-soft);}
+  .pill-row{margin-top:26px; display:flex; gap:10px; flex-wrap:wrap;}
+  .pill{border:1px solid var(--line); border-radius:999px; padding:6px 14px; font-size:0.83rem; color:var(--tea-soft);}
+
+  .kicker{color:var(--honey); font-weight:600; font-size:0.93rem; margin-bottom:8px;}
+  h2.title{font-size:clamp(1.5rem,3.2vw,2.1rem); font-weight:600; margin-bottom:12px;}
+  .lead-text{color:var(--tea-soft); max-width:62ch; font-size:1rem;}
+  hr.rule{border:none; border-top:1px solid var(--line); margin:0;}
+
+  .intro-box{background:var(--paper); border:1px solid var(--line); border-radius:18px; padding:30px; margin-top:24px;}
+  .intro-box p{margin:0 0 14px; color:var(--tea-soft);}
+  .intro-box p:last-child{margin-bottom:0;}
+  .intro-box strong{color:var(--tea);}
+
+  .grid-2{display:grid; grid-template-columns:1fr 1fr; gap:26px; margin-top:28px;}
+  .card{background:var(--paper); border:1px solid var(--line); border-radius:18px; padding:26px;}
+  .card h3{font-size:1.1rem; font-weight:600; margin-bottom:14px; display:flex; align-items:center; gap:9px;}
+  .card h3 svg{width:20px; height:20px; color:var(--honey); flex-shrink:0;}
+  .card ul{margin:0; padding:0; list-style:none;}
+  .card li{padding:9px 0; border-bottom:1px solid var(--line); font-size:0.94rem; color:var(--tea-soft); display:flex; justify-content:space-between; gap:12px;}
+  .card li:last-child{border-bottom:none;}
+  .card li b{color:var(--tea); font-weight:600; white-space:nowrap;}
+
+  .req-list{margin-top:20px; padding:0; list-style:none;}
+  .req-list li{position:relative; padding-left:26px; margin-bottom:11px; color:var(--tea-soft); font-size:0.96rem;}
+  .req-list li::before{content:""; position:absolute; left:0; top:9px; width:8px; height:8px; border-radius:50%; background:var(--leaf);}
+
+  .timeline{margin-top:32px; position:relative;}
+  .timeline::before{content:""; position:absolute; left:22px; top:6px; bottom:6px; width:1px; background:var(--line);}
+  .step{position:relative; padding-left:62px; margin-bottom:30px;}
+  .step:last-child{margin-bottom:0;}
+  .step-num{position:absolute; left:0; top:0; width:45px; height:45px; border-radius:50%; background:var(--tea); color:var(--cream); font-family:'Fraunces',serif; font-weight:600; display:flex; align-items:center; justify-content:center; font-size:1.05rem;}
+  .step h3{font-size:1.08rem; font-weight:600; margin-bottom:6px;}
+  .step p{margin:0; color:var(--tea-soft); font-size:0.96rem;}
+  .step p+p{margin-top:8px;}
+  .fix{margin-top:10px; background:rgba(116,138,93,0.1); border-left:3px solid var(--leaf); border-radius:8px; padding:10px 14px;}
+  .fix b{display:block; font-size:0.8rem; color:var(--leaf); margin-bottom:3px; font-weight:600;}
+  .fix span{font-size:0.9rem; color:var(--tea-soft);}
+
+  .price-box{margin-top:26px; background:linear-gradient(135deg,var(--lemon),var(--honey)); border-radius:18px; padding:30px; color:#3A2410;}
+  .price-box h3{color:#3A2410; font-size:1.1rem; margin-bottom:12px;}
+  .price-row{display:flex; gap:22px; flex-wrap:wrap; margin-top:12px;}
+  .price-item{background:rgba(255,255,255,0.35); border-radius:12px; padding:14px 20px; min-width:126px;}
+  .price-item b{display:block; font-family:'Fraunces',serif; font-size:1.35rem;}
+  .price-item span{font-size:0.8rem;}
+
+  .audience{margin-top:26px; display:flex; gap:16px; flex-wrap:wrap;}
+  .audience-chip{flex:1; min-width:150px; background:var(--paper); border:1px solid var(--line); border-radius:14px; padding:18px; text-align:center;}
+  .audience-chip svg{width:28px;height:28px;color:var(--leaf); margin-bottom:9px;}
+  .audience-chip span{display:block; font-weight:600; font-size:0.92rem;}
+
+  .closing{background:var(--tea); color:var(--cream); border-radius:22px; padding:40px 32px; margin-top:6px;}
+  .closing h2{color:var(--cream); font-size:clamp(1.4rem,2.8vw,1.9rem);}
+  .closing p{color:#D9CDBC; margin-top:13px; max-width:64ch;}
+  .closing .quote{margin-top:22px; font-family:'Fraunces',serif; font-style:italic; font-size:1.1rem; color:var(--lemon); border-left:3px solid var(--lemon); padding-left:16px;}
+
+  footer{padding:32px 0 48px; text-align:center; color:var(--tea-soft); font-size:0.84rem;}
+  footer .name{color:var(--tea); font-weight:600;}
+
+  @media (max-width:720px){
+    .grid-2{grid-template-columns:1fr;}
+    section{padding:40px 0;}
+    .photo-banner{height:260px;}
+  }
+</style>
+</head>
+<body>
+
+<div class="top">
+  <div class="brand">
+    <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" fill="#F0BD3E"/><path d="M12 4v16M4 12h16" stroke="#3E2A1D" stroke-width="1" opacity="0.5"/></svg>
+    <span>Lemon Tea Fresh</span>
+  </div>
+  <span class="author-tag">oleh M. Farel Pardianto Simamora</span>
+</div>
+
+<div class="photo-banner">
+  <svg viewBox="0 0 800 420" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#F7DFA0"/>
+        <stop offset="100%" stop-color="#D98A2B"/>
+      </linearGradient>
+      <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#B5731A" stop-opacity="0.9"/>
+        <stop offset="100%" stop-color="#8C5613" stop-opacity="0.95"/>
+      </linearGradient>
+      <radialGradient id="lemonG" cx="50%" cy="45%" r="60%">
+        <stop offset="0%" stop-color="#FCEFA6"/>
+        <stop offset="100%" stop-color="#EFC23C"/>
+      </radialGradient>
+    </defs>
+    <rect width="800" height="420" fill="url(#bg)"/>
+    <ellipse cx="400" cy="400" rx="420" ry="60" fill="#6E4315" opacity="0.35"/>
+    <!-- glass -->
+    <path d="M300 120 L500 120 L470 380 Q400 400 330 380 Z" fill="url(#glass)" stroke="#5C3A10" stroke-width="2"/>
+    <ellipse cx="400" cy="120" rx="100" ry="16" fill="#C99A4E" stroke="#5C3A10" stroke-width="2"/>
+    <!-- tea liquid -->
+    <path d="M312 150 L488 150 L468 372 Q400 390 332 372 Z" fill="#7A4A16" opacity="0.75"/>
+    <!-- ice cubes -->
+    <rect x="345" y="180" width="36" height="36" rx="6" fill="#FDF6E3" opacity="0.55" transform="rotate(12 363 198)"/>
+    <rect x="400" y="210" width="40" height="40" rx="6" fill="#FDF6E3" opacity="0.5" transform="rotate(-10 420 230)"/>
+    <rect x="365" y="260" width="34" height="34" rx="6" fill="#FDF6E3" opacity="0.5" transform="rotate(6 382 277)"/>
+    <!-- lemon slice on rim -->
+    <circle cx="470" cy="128" r="34" fill="url(#lemonG)" stroke="#D98A2B" stroke-width="3"/>
+    <circle cx="470" cy="128" r="22" fill="#FBF0B0" stroke="#E7B94A" stroke-width="2"/>
+    <g stroke="#E7B94A" stroke-width="1.6">
+      <line x1="470" y1="106" x2="470" y2="150"/>
+      <line x1="448" y1="128" x2="492" y2="128"/>
+      <line x1="454" y1="112" x2="486" y2="144"/>
+      <line x1="486" y1="112" x2="454" y2="144"/>
+    </g>
+    <!-- straw -->
+    <rect x="392" y="70" width="14" height="180" rx="7" fill="#E85C4A" transform="rotate(8 399 160)"/>
+    <!-- honey drizzle -->
+    <path d="M120 60 Q150 90 130 120 Q110 150 140 175" stroke="#C9791F" stroke-width="6" fill="none" stroke-linecap="round" opacity="0.55"/>
+    <circle cx="140" cy="175" r="7" fill="#C9791F" opacity="0.55"/>
+    <path d="M660 70 Q640 100 665 125 Q690 150 660 180" stroke="#C9791F" stroke-width="6" fill="none" stroke-linecap="round" opacity="0.5"/>
+    <!-- leaves -->
+    <path d="M120 340 Q150 300 190 320 Q160 350 120 340Z" fill="#7E9463" opacity="0.7"/>
+    <path d="M660 350 Q630 310 590 330 Q620 360 660 350Z" fill="#7E9463" opacity="0.7"/>
+  </svg>
+  <span class="caption">Ilustrasi Es Teh Lemon Madu 16 oz</span>
+</div>
+
+<section class="hero">
+  <div class="wrap">
+    <h1>Cara Memulai Usaha Es Teh Lemon Madu Dengan Modal Kecil Untuk Pemula</h1>
+    <p class="byline">Disusun oleh <b>M. Farel Pardianto Simamora</b></p>
+    <p class="lede">Panduan lengkap untuk memulai usaha minuman segar bermodal kecil — dari menghitung HPP, menyeduh teh, sampai menentukan harga jual, memasarkan, dan mengatasi kendala di setiap langkah.</p>
+    <div class="pill-row">
+      <span class="pill">Modal kecil</span>
+      <span class="pill">10 cup / produksi</span>
+      <span class="pill">Ukuran 16 oz</span>
+      <span class="pill">Ada tips pemecahan masalah</span>
+    </div>
+    <div class="hero-stats">
+      <div class="stat"><b>12</b><span>langkah kerja</span></div>
+      <div class="stat"><b>±Rp4.000</b><span>estimasi HPP / cup</span></div>
+      <div class="stat"><b>Rp6.000–7.000</b><span>estimasi harga jual</span></div>
+    </div>
+  </div>
+</section>
+
+<hr class="rule">
+
+<section id="tujuan">
+  <div class="wrap">
+    <div class="kicker">Pengantar</div>
+    <h2 class="title">Kenapa Es Teh Lemon Madu?</h2>
+    <p class="lead-text">Bahan mudah didapat, cara membuatnya sederhana, dan pasarnya luas — cocok untuk siapa saja yang baru mulai berjualan.</p>
+    <div class="intro-box">
+      <p>Memulai usaha tidak selalu membutuhkan modal besar. Es Teh Lemon Madu adalah salah satu pilihan usaha yang dapat dijalankan dengan modal relatif kecil, karena bahannya mudah diperoleh dan proses pembuatannya sederhana.</p>
+      <p>Sebelum memulai, tentukan lebih dulu <strong>target pasar, harga jual, jumlah produksi, dan strategi pemasaran</strong>. Usaha yang direncanakan dengan baik akan lebih mudah mengontrol biaya dan memperoleh keuntungan.</p>
+      <p>Panduan ini menargetkan satu kali produksi menghasilkan <strong>10 cup</strong> Es Teh Lemon Madu berukuran 16 oz, agar kebutuhan bahan mudah diperkirakan dan tidak ada pembelian yang berlebihan.</p>
+    </div>
+
+    <div class="audience">
+      <div class="audience-chip">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 19V5a2 2 0 0 1 2-2h8l6 6v10a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2Z"/><path d="M14 3v6h6"/></svg>
+        <span>Pelajar</span>
+      </div>
+      <div class="audience-chip">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M22 10 12 5 2 10l10 5 10-5Z"/><path d="M6 12v5c0 1.1 2.7 2 6 2s6-.9 6-2v-5"/></svg>
+        <span>Mahasiswa</span>
+      </div>
+      <div class="audience-chip">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 3.6-7 8-7s8 3 8 7"/></svg>
+        <span>Anak muda di sekitar tempat tinggal</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr class="rule">
+
+<section id="alat-bahan">
+  <div class="wrap">
+    <div class="kicker">Persiapan</div>
+    <h2 class="title">Alat dan Bahan</h2>
+    <p class="lead-text">Semua kebutuhan untuk satu kali produksi, yaitu 10 cup Es Teh Lemon Madu ukuran 16 oz.</p>
+    <div class="grid-2">
+      <div class="card">
+        <h3><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 3h13v9a6 6 0 0 1-6 6H9a6 6 0 0 1-6-6V3Z"/><path d="M16 8h3a3 3 0 0 1 0 6h-3"/><path d="M6 21h8"/></svg>Alat</h3>
+        <ul>
+          <li>Teko / wadah untuk menyeduh teh</li>
+          <li>Gelas ukur</li>
+          <li>Sendok pengaduk</li>
+          <li>Pisau &amp; talenan</li>
+          <li>Saringan</li>
+          <li>Wadah atau pitcher</li>
+          <li>Gelas plastik 16 oz</li>
+          <li>Sealer / penutup gelas</li>
+          <li>Label atau stiker produk</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 2v4M8 4l1 3M16 4l-1 3"/><path d="M6 8h12l-1.2 11a3 3 0 0 1-3 2.7h-3.6a3 3 0 0 1-3-2.7L6 8Z"/></svg>Bahan (untuk 10 cup)</h3>
+        <ul>
+          <li>Teh celup <b>10 kantong</b></li>
+          <li>Air <b>1,5 liter</b></li>
+          <li>Es batu <b>250 gram</b></li>
+          <li>Lemon <b>5 buah</b></li>
+          <li>Madu <b>150 ml</b></li>
+          <li>Gula pasir <b>100 gram</b></li>
+          <li>Cup plastik 16 oz <b>10 pcs</b></li>
+          <li>Sedotan <b>10 pcs</b></li>
+          <li>Label produk <b>10 lembar</b></li>
+        </ul>
+      </div>
+    </div>
+    <h3 style="margin-top:32px; font-size:1.05rem; font-weight:600;">Persyaratan usaha</h3>
+    <ul class="req-list">
+      <li>Gunakan bahan yang masih segar dan layak konsumsi.</li>
+      <li>Pastikan seluruh alat yang digunakan bersih.</li>
+      <li>Tentukan harga pokok produksi (HPP) sebelum menetapkan harga jual.</li>
+      <li>Gunakan kemasan yang tertutup dan sesuai dengan ukuran produk.</li>
+      <li>Pilih lokasi penjualan yang mudah dijangkau oleh target pasar.</li>
+    </ul>
+  </div>
+</section>
+
+<hr class="rule">
+
+<section id="langkah">
+  <div class="wrap">
+    <div class="kicker">Prosedur</div>
+    <h2 class="title">Langkah-Langkah Kerja</h2>
+    <p class="lead-text">Setiap langkah dilengkapi tips jika kamu menemui kendala di lapangan.</p>
+    <div class="timeline">
+
+      <div class="step"><div class="step-num">1</div>
+        <h3>Tentukan nama dan konsep produk</h3>
+        <p>Pilih nama yang singkat dan mudah diingat, misalnya "Lemon Tea Fresh". Buat konsep sederhana untuk logo dan label agar produk terlihat menarik.</p>
+        <div class="fix"><b>Jika bingung menentukan nama</b><span>Gabungkan bahan utama dengan satu kata sifat (segar, fresh, manis), lalu uji ke 3–5 orang terdekat, pilih yang paling mudah diingat.</span></div>
+      </div>
+
+      <div class="step"><div class="step-num">2</div>
+        <h3>Hitung modal dan HPP</h3>
+        <p>Catat seluruh biaya, mulai dari teh, lemon, madu, gula, es batu, hingga kemasan dan label. Biaya kemasan tetap termasuk biaya produksi, lalu hitung biaya per cup.</p>
+        <div class="fix"><b>Jika total biaya membengkak</b><span>Cek ulang harga per item, beli bahan kemasan dalam jumlah lebih besar untuk harga satuan lebih murah, atau kurangi jumlah madu/lemon sedikit tanpa mengubah rasa utama.</span></div>
+      </div>
+
+      <div class="step"><div class="step-num">3</div>
+        <h3>Siapkan alat dan bahan</h3>
+        <p>Pastikan teko, pisau, talenan, gelas ukur, dan wadah dalam keadaan bersih. Cuci lemon sebelum digunakan, dan cek kelengkapan bahan agar produksi tidak terhenti di tengah jalan.</p>
+        <div class="fix"><b>Jika ada bahan yang kurang</b><span>Buat daftar cek (checklist) sehari sebelum produksi, dan siapkan toko atau warung cadangan terdekat untuk bahan yang mendadak habis.</span></div>
+      </div>
+
+      <div class="step"><div class="step-num">4</div>
+        <h3>Seduh teh</h3>
+        <p>Seduh 10 kantong teh dengan 1,5 liter air panas. Diamkan 5–7 menit, lalu angkat kantong teh dan biarkan seduhan sedikit mendingin.</p>
+        <div class="fix"><b>Jika teh terasa pahit atau terlalu pekat</b><span>Kurangi waktu seduh menjadi 4–5 menit, atau tambahkan sedikit air panas untuk mengencerkan sebelum dicampur bahan lain.</span></div>
+      </div>
+
+      <div class="step"><div class="step-num">5</div>
+        <h3>Buat larutan pemanis</h3>
+        <p>Campurkan 100 gram gula pasir dengan sedikit air panas hingga larut, lalu tuangkan ke seduhan teh dan aduk merata.</p>
+        <div class="fix"><b>Jika gula sulit larut atau mengendap</b><span>Gunakan air panas (bukan air dingin) saat melarutkan gula, dan aduk sampai benar-benar bening sebelum dicampur ke teh.</span></div>
+      </div>
+
+      <div class="step"><div class="step-num">6</div>
+        <h3>Tambahkan madu dan lemon</h3>
+        <p>Tuang 150 ml madu, aduk hingga tercampur sempurna. Peras lemon, saring bijinya, lalu tambahkan air perasan sedikit demi sedikit sambil mencicipi rasa agar tidak terlalu asam.</p>
+        <div class="fix"><b>Jika rasa lemon terlalu asam atau pahit</b><span>Pastikan tidak memeras kulit putih lemon (bagian pahit), dan tambahkan air perasan bertahap sambil terus mencicipi, bukan langsung sekaligus.</span></div>
+      </div>
+
+      <div class="step"><div class="step-num">7</div>
+        <h3>Uji rasa</h3>
+        <p>Pastikan rasa manis, asam, dan teh sudah seimbang. Terlalu manis, tambahkan air atau lemon; terlalu asam, tambahkan larutan gula atau madu.</p>
+        <div class="fix"><b>Jika rasa tiap batch tidak konsisten</b><span>Catat takaran akhir yang paling disukai (misalnya jumlah lemon dan madu final), lalu jadikan resep tetap untuk produksi berikutnya.</span></div>
+      </div>
+
+      <div class="step"><div class="step-num">8</div>
+        <h3>Kemas produk</h3>
+        <p>Masukkan es batu secukupnya ke setiap cup, tuangkan Es Teh Lemon Madu hingga mendekati batas cup, tutup dengan sealer, lalu pasang sedotan dan tempelkan label.</p>
+        <div class="fix"><b>Jika tidak punya mesin sealer</b><span>Gunakan tutup cup plastik biasa (dome lid) yang banyak dijual di toko kemasan sebagai pengganti sementara.</span></div>
+      </div>
+
+      <div class="step"><div class="step-num">9</div>
+        <h3>Tentukan harga jual</h3>
+        <p>Hitung berdasarkan HPP dan keuntungan yang diinginkan, lalu sesuaikan dengan survei harga pasar dan daya beli target konsumen.</p>
+        <div class="fix"><b>Jika harga terasa kurang kompetitif</b><span>Bandingkan dengan 2–3 penjual minuman sejenis di sekitar lokasi, lalu sesuaikan margin keuntungan tanpa menjual di bawah HPP.</span></div>
+      </div>
+
+      <div class="step"><div class="step-num">10</div>
+        <h3>Lakukan pemasaran</h3>
+        <p>Tawarkan ke teman, keluarga, dan tetangga. Manfaatkan media sosial dan aplikasi pesan dengan foto menarik, lengkap dengan nama produk, harga, varian, dan cara pemesanan.</p>
+        <div class="fix"><b>Jika promosi kurang direspons</b><span>Perbaiki kualitas foto (pencahayaan alami, latar bersih), posting di jam ramai (siang atau sore), dan tawarkan promo coba-coba untuk pembeli pertama.</span></div>
+      </div>
+
+      <div class="step"><div class="step-num">11</div>
+        <h3>Catat hasil penjualan</h3>
+        <p>Catat jumlah produksi, jumlah terjual, pendapatan, dan biaya setiap hari untuk mengetahui omzet, laba, dan titik impas (BEP). Evaluasi harga, kualitas, kemasan, dan pemasaran bila target belum tercapai.</p>
+        <div class="fix"><b>Jika malas atau lupa mencatat</b><span>Gunakan buku kecil atau catatan di ponsel dengan format sederhana: tanggal, jumlah terjual, pemasukan, pengeluaran — isi langsung setelah selesai berjualan.</span></div>
+      </div>
+
+      <div class="step"><div class="step-num">12</div>
+        <h3>Evaluasi secara berkala</h3>
+        <p>Tanyakan pendapat konsumen tentang rasa, harga, ukuran, dan kemasan. Gunakan masukan ini untuk meningkatkan kualitas produk dan mengembangkan usaha.</p>
+        <div class="fix"><b>Jika penjualan stagnan meski sudah dievaluasi</b><span>Coba satu variabel baru dalam satu waktu (misalnya varian rasa atau lokasi jualan baru) agar mudah diketahui faktor yang benar-benar berpengaruh.</span></div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<hr class="rule">
+
+<section id="harga">
+  <div class="wrap">
+    <div class="kicker">Simulasi</div>
+    <h2 class="title">Contoh Perhitungan Harga</h2>
+    <p class="lead-text">Gambaran sederhana untuk menentukan harga jual per cup.</p>
+    <div class="price-box">
+      <h3>Estimasi harga per cup</h3>
+      <div class="price-row">
+        <div class="price-item"><b>Rp4.000</b><span>HPP per cup</span></div>
+        <div class="price-item"><b>Rp6.000–7.000</b><span>harga jual disarankan</span></div>
+        <div class="price-item"><b>10 cup</b><span>hasil satu kali produksi</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="penutup">
+  <div class="wrap">
+    <div class="closing">
+      <h2>Mulai dari yang kecil, kelola dengan konsisten</h2>
+      <p>Perencanaan modal, pengendalian biaya, kualitas produk, kemasan, penetapan harga, dan pemasaran adalah bagian penting dalam menjalankan usaha ini. Jangan hanya fokus pada banyaknya produk yang terjual — perhatikan juga keuntungan dan kepuasan konsumen.</p>
+      <p>Mulailah dari skala kecil, catat setiap transaksi, dengarkan masukan konsumen, dan lakukan evaluasi secara konsisten.</p>
+      <p class="quote">Usaha yang sukses bukan hanya tentang modal besar, tetapi tentang perencanaan yang matang, keberanian untuk memulai, dan kemauan untuk terus memperbaiki diri.</p>
+    </div>
+  </div>
+</section>
+
+<footer>Ditulis oleh <span class="name">M. Farel Pardianto Simamora</span> — panduan usaha untuk pelajar, mahasiswa, dan anak muda yang ingin mulai berwirausaha.</footer>
+
+</body>
+</html>
